@@ -52,6 +52,59 @@ print(s2)
 print(s3)
 print(s4)
 
+#we often use the conversion functons lke str() or int()....it can also be done by only character strings
+value = 100000
+text = 'Tutorial Gateway'
+science = 1.20023456341
+cr = 'u'
+ 
+print('%d' %value)
+print('%i' %value)
+print('%u' %value)
+print('%o' %value)
+print('%x' %value)
+print('%X' %value)
+ 
+print('%f' %science)
+print('%e' %science)
+print('%E' %science)
+ 
+print('%g' %science)
+print('%G' %science)
+ 
+print('%c' %cr)
+print('%s is a string representation' %value)
+print('%s' %text)
+
+#multiplying the \n three times will give us three new lines
+print(3 * "\n")
+ 
+print("--------")
+print('\n\n\n\n\n')
+
+#special characters in the python functions to use the "" or ''
+s = 'Hi there, "How are You?"'
+s1 = 'Hi there, \"How are You?\"'
+ 
+print(s)
+print(s1)
+ 
+print('I Can\'t Do that')
+print('I Don\'t Know you')
+
+#since the values can be the objects we cna use any type
+name = 'Tutorial Gateway'
+person = 'suresh'
+year = 2019
+ 
+#all these formats are the same
+print('%s is working at %s' %(person, name))
+print('Copyright %s at %d' %(name, year))
+print('{0} is working at {1}'.format(person, name))
+print('Copyright {} at {}'.format(name, year))
+print(person, ' is working at ', name)
+print(person + ' is working at ' + name)
+
 
 # #input()
 # name=input('enter your name')
