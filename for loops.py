@@ -74,3 +74,9 @@ print(i,j)
 
 for i, j in [(1, 2), (3, 4), (5, 6)]:
     print(i*i, j*j)
+
+d = {'foo': 1, 'bar': 2, 'baz': 3}
+items = list(d.items())
+print(items)
+for i,j in items:
+    print("key:"+str(i),"value:"+str(j),sep=",")
